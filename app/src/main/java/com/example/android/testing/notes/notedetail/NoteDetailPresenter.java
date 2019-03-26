@@ -19,8 +19,8 @@ package com.example.android.testing.notes.notedetail;
 import com.example.android.testing.notes.data.Note;
 import com.example.android.testing.notes.data.NotesRepository;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 

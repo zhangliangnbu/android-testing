@@ -18,8 +18,8 @@ package com.example.android.testing.notes.data;
 
 import com.google.common.collect.Lists;
 
-import android.support.annotation.VisibleForTesting;
-import android.support.v4.util.ArrayMap;
+import androidx.annotation.VisibleForTesting;
+import androidx.collection.ArrayMap;
 
 import java.util.List;
 

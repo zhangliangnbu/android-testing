@@ -19,7 +19,7 @@ package com.example.android.testing.notes.custom.matcher;
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
 
-import android.support.test.espresso.matcher.BoundedMatcher;
+import androidx.test.espresso.matcher.BoundedMatcher;
 import android.view.View;
 import android.widget.ImageView;
 

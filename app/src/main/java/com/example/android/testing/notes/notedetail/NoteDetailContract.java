@@ -16,7 +16,7 @@
 
 package com.example.android.testing.notes.notedetail;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 /**
  * This specifies the contract between the view and the presenter.

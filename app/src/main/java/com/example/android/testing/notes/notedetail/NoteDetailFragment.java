@@ -16,6 +16,13 @@
 
 package com.example.android.testing.notes.notedetail;
 
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
+
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.load.resource.drawable.GlideDrawable;
@@ -25,14 +32,8 @@ import com.example.android.testing.notes.Injection;
 import com.example.android.testing.notes.R;
 import com.example.android.testing.notes.util.EspressoIdlingResource;
 
-import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.TextView;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 
 /**
  * Main UI for the note detail screen.
@@ -121,7 +122,7 @@ public class NoteDetailFragment extends Fragment implements NoteDetailContract.V
         mDetailImage.setVisibility(View.VISIBLE);
 
         // This app uses Glide for image loading
-        Glide.with(this)
+        Glide.with(getContext())
                 .load(imageUrl)
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .centerCrop()

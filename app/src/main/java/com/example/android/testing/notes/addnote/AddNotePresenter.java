@@ -20,7 +20,7 @@ import com.example.android.testing.notes.data.Note;
 import com.example.android.testing.notes.data.NotesRepository;
 import com.example.android.testing.notes.util.ImageFile;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;

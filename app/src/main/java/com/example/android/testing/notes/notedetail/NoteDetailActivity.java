@@ -16,18 +16,19 @@
 
 package com.example.android.testing.notes.notedetail;
 
+import android.os.Bundle;
+
 import com.example.android.testing.notes.R;
 import com.example.android.testing.notes.util.EspressoIdlingResource;
 
-import android.os.Bundle;
-import android.support.annotation.VisibleForTesting;
-import android.support.test.espresso.IdlingResource;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.annotation.VisibleForTesting;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+import androidx.test.espresso.IdlingResource;
 
 /**
  * Displays note details screen.

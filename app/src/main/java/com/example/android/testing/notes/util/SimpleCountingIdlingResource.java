@@ -16,7 +16,7 @@
 
 package com.example.android.testing.notes.util;
 
-import android.support.test.espresso.IdlingResource;
+import androidx.test.espresso.IdlingResource;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

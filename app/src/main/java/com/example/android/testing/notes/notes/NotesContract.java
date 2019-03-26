@@ -16,7 +16,7 @@
 
 package com.example.android.testing.notes.notes;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.example.android.testing.notes.data.Note;
 

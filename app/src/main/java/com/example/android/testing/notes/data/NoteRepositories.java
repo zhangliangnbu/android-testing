@@ -16,7 +16,7 @@
 
 package com.example.android.testing.notes.data;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 

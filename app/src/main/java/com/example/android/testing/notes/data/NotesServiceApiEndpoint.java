@@ -16,7 +16,7 @@
 
 package com.example.android.testing.notes.data;
 
-import android.support.v4.util.ArrayMap;
+import androidx.collection.ArrayMap;
 
 /**
  * This is the endpoint for your data source. Typically, it would be a SQLite db and/or a server

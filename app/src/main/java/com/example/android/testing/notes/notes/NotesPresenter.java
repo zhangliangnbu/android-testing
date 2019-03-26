@@ -20,7 +20,7 @@ import com.example.android.testing.notes.data.Note;
 import com.example.android.testing.notes.data.NotesRepository;
 import com.example.android.testing.notes.util.EspressoIdlingResource;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import java.util.List;
 

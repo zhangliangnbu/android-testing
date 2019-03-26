@@ -22,23 +22,23 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import android.support.test.InstrumentationRegistry;
-import android.support.test.filters.LargeTest;
-import android.support.test.rule.ActivityTestRule;
-import android.support.test.runner.AndroidJUnit4;
-import android.support.v4.widget.DrawerLayout;
+import androidx.test.InstrumentationRegistry;
+import androidx.test.filters.LargeTest;
+import androidx.test.rule.ActivityTestRule;
+import androidx.test.runner.AndroidJUnit4;
+import androidx.drawerlayout.widget.DrawerLayout;
 import android.view.Gravity;
 
-import static android.support.test.espresso.Espresso.onView;
-import static android.support.test.espresso.action.ViewActions.click;
-import static android.support.test.espresso.assertion.ViewAssertions.matches;
-import static android.support.test.espresso.contrib.DrawerActions.open;
-import static android.support.test.espresso.contrib.DrawerMatchers.isClosed;
-import static android.support.test.espresso.contrib.DrawerMatchers.isOpen;
-import static android.support.test.espresso.contrib.NavigationViewActions.navigateTo;
-import static android.support.test.espresso.matcher.ViewMatchers.withContentDescription;
-import static android.support.test.espresso.matcher.ViewMatchers.withId;
-import static android.support.test.espresso.matcher.ViewMatchers.withText;
+import static androidx.test.espresso.Espresso.onView;
+import static androidx.test.espresso.action.ViewActions.click;
+import static androidx.test.espresso.assertion.ViewAssertions.matches;
+import static androidx.test.espresso.contrib.DrawerActions.open;
+import static androidx.test.espresso.contrib.DrawerMatchers.isClosed;
+import static androidx.test.espresso.contrib.DrawerMatchers.isOpen;
+import static androidx.test.espresso.contrib.NavigationViewActions.navigateTo;
+import static androidx.test.espresso.matcher.ViewMatchers.withContentDescription;
+import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.matcher.ViewMatchers.withText;
 
 /**
  * Tests for the {@link DrawerLayout} layout component in {@link NotesActivity} which manages
@@ -84,7 +84,7 @@ public class AppNavigationTest {
 
         // Open Drawer
         String navigateUpDesc = mActivityTestRule.getActivity()
-                .getString(android.support.v7.appcompat.R.string.abc_action_bar_up_description);
+                .getString(androidx.appcompat.appcompat.R.string.abc_action_bar_up_description);
         onView(withContentDescription(navigateUpDesc)).perform(click());
 
         // Check if drawer is open
